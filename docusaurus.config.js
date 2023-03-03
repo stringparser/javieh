@@ -69,6 +69,7 @@ const config = {
 
       navbar: {
         title: '',
+        hideOnScroll: true,
         logo: {
           alt: 'J_',
           src: 'img/logo.png',
@@ -81,7 +82,12 @@ const config = {
             position: 'right'
           },
           {
-            href: 'https://github.com/stringparser/javieh.es',
+            to: 'https://stringparser.github.io/cv', 
+            label: 'CV', 
+            position: 'right'
+          },
+          {
+            href: 'https://github.com/stringparser/javieh',
             label: 'GitHub',
             position: 'right',
           },

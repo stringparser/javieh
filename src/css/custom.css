@@ -28,3 +28,10 @@
   --ifm-color-primary-lightest: #4fddbf;
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
 }
+
+.navbar__item.navbar__link {
+  text-transform: lowercase;
+  text-decoration: none;
+  padding: 0 0 5px 0;
+  margin-right: 10px;
+}
