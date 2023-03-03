@@ -77,6 +77,11 @@ const config = {
         },
         items: [
           {
+            to: '/music', 
+            label: 'Music', 
+            position: 'right'
+          },
+          {
             to: '/blog', 
             label: 'Blog', 
             position: 'right'
@@ -102,15 +107,15 @@ const config = {
         style: 'dark',
         links: [
           {
-            title: 'More',
+            title: 'Links',
             items: [
-              {
-                label: 'Blog',
-                to: '/blog',
-              },
               {
                 label: 'GitHub',
                 href: 'https://github.com/stringparser',
+              },
+              {
+                label: 'Ritual Reunion (bandcamp)',
+                href: 'https://ritualreunion.bandcamp.com/',
               },
             ],
           },
