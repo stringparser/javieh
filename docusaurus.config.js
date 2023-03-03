@@ -79,12 +79,12 @@ const config = {
           {
             to: '/music', 
             label: 'Music', 
-            position: 'right'
+            position: 'left'
           },
           {
             to: '/blog', 
             label: 'Blog', 
-            position: 'right'
+            position: 'left'
           },
           {
             to: 'https://stringparser.github.io/cv', 
@@ -95,11 +95,6 @@ const config = {
             href: 'https://github.com/stringparser/javieh',
             label: 'GitHub',
             position: 'right',
-          },
-          {
-            type: 'docsVersionDropdown',
-            position: 'right',
-            dropdownActiveClassDisabled: true,
           },
         ],
       },
@@ -130,7 +125,7 @@ const config = {
         defaultMode: 'dark',
         disableSwitch: false,
         respectPrefersColorScheme: true,
-      }
+      },
     }),
 };
 

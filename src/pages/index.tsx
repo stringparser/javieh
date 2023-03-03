@@ -17,6 +17,12 @@ function HomepageHeader() {
         <div className={styles.buttons}>
           <Link
             className="button button--secondary button--lg"
+            to="/music">
+            Music
+          </Link>
+          <div style={{padding: '1rem'}} />
+          <Link
+            className="button button--secondary button--lg"
             to="/blog">
             Blog
           </Link>
