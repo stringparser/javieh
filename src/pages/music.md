@@ -2,6 +2,10 @@
 title: Music
 ---
 
-You can find my music at
+## Ritual Reunion
 
 https://ritualreunion.bandcamp.com/
+
+## Solo projects
+
+https://soundcloud.com/stringparser
