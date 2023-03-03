@@ -7,3 +7,14 @@ tags: [test]
 # Continuación
 
 Entrada de testeo.
+
+```ts live
+function main() {
+  /**
+   * @param {{name: string; value: number;}} value
+   */
+  const personAge = (value) => value.age;
+
+  return personAge({name: 'Javier', age: 36});
+}
+```
