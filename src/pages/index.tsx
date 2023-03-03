@@ -6,14 +6,16 @@ import Layout from '@theme/Layout';
 import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
 
 import styles from './index.module.css';
+import { ProfilePicture } from '@site/src/features/profile/ProfilePicture';
 
 function HomepageHeader() {
   const {siteConfig} = useDocusaurusContext();
   return (
-    <header className={clsx('hero hero--primary', styles.heroBanner)}>
+    <header className={clsx('hero', styles.heroBanner)}>
       <div className="container">
-        <h1 className="hero__title">{siteConfig.title}</h1>
-        <p className="hero__subtitle">{siteConfig.tagline}</p>
+        <p className="hero__subtitle">Hey there come in, I'm Javier</p>
+        <p>You can find some stuff I've been up to here like:</p>
+        <div className="spacer"/>
         <div className={styles.buttons}>
           <Link
             className="button button--secondary button--lg"

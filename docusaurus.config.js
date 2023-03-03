@@ -99,22 +99,6 @@ const config = {
         ],
       },
       footer: {
-        style: 'dark',
-        links: [
-          {
-            title: 'Links',
-            items: [
-              {
-                label: 'GitHub',
-                href: 'https://github.com/stringparser',
-              },
-              {
-                label: 'Ritual Reunion (bandcamp)',
-                href: 'https://ritualreunion.bandcamp.com/',
-              },
-            ],
-          },
-        ],
         copyright: `Copyright © ${new Date().getFullYear()} Javier Carrillo Milla. Built with Docusaurus.`,
       },
       prism: {
